@@ -17,6 +17,9 @@ nav{
 .airbnb{
     object-fit: cover;
 }
+a{
+    text-decoration: none;
+}
 .firstdiv{
     margin-left:50px;
     display: flex;
@@ -201,6 +204,409 @@ table{
         }
         
     }
+    
+  @media screen and (max-width:1440px)
+  {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .container{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .container{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .container{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+    @media screen and (max-width:1440px)
+  {
+    .hrow{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .hrow{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .hrow{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .hrow{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+    @media screen and (max-width:1440px)
+  {
+    .plimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .plimg{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .plimg{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .plimg{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+    @media screen and (max-width:1440px)
+  {
+    .mainplimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .mainplimg{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .mainplimg{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .mainplimg{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+     @media screen and (max-width:1440px)
+  {
+    .graycontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .graycontainer{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .graycontainer{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .graycontainer{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+    @media screen and (max-width:1440px)
+  {
+    .List{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .List{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .List{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .List{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+       @media screen and (max-width:1440px)
+  {
+    .airbnb{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .airbnb{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .airbnb{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .airbnb{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+       @media screen and (max-width:1440px)
+  {
+    .firstdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .firstdiv{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .firstdiv{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .firstdiv{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+           @media screen and (max-width:1440px)
+  {
+    .Row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .Row{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .Row{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .Row{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+
+    }
+          @media screen and (max-width:1440px)
+  {
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .row{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .row{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .row{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+       @media screen and (max-width:1440px)
+  {
+    .first{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .first{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .first{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .first{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+      @media screen and (max-width:1440px)
+  {
+    .first2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .first2{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .first2{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .first2{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+    @media screen and (max-width:1440px)
+  {
+    .firstcl{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .firstcl{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .firstcl{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .firstcl{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+     @media screen and (max-width:1440px)
+  {
+    .thirdcl{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .thirdcl{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .thirdcl{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .thirdcl{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+     @media screen and (max-width:1440px)
+  {
+    .fourthcl{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media screen and(max-width:1000px){
+    .fourthcl{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+  }
+  @media screen and (max-width:700px){
+    .fourthcl{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+    @media screen and (max-width:500px){
+        .fourthcl{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+  
+    
+  
+    
+  
     
   
     
