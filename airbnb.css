@@ -58,20 +58,27 @@ a{
     width:250px;
     border-right: 1px solid rgb(159, 156, 156);
     
-
-    
 }
+.firstcl:hover{
+    background-color: rgb(212, 206, 206);
+        
+        border-radius: 17px;
+}
+
 .secondcl{
 
     color:black;
     font-size:13;
     width:250px;
     border-right: 1px solid rgb(159, 156, 156);
-    
+    }
+    .secondcl:hover{
+          background-color: rgb(212, 206, 206);
+        
+        border-radius: 17px;
 
-    
-    
-}
+        
+    }
 
 .row{
     
@@ -91,18 +98,33 @@ a{
     width:150px;
     border-right: 1px solid rgb(159, 156, 156);
    
-    
-
-}
+    }
+    .thirdcl:hover{
+       background-color: rgb(212, 206, 206);
+        
+        border-radius: 17px;
+    }
 .fourthcl{
     color:black;
     font-size:13;
     width:150px;
     
+    }
+    .fourthcl:hover{
+        background-color: rgb(212, 206, 206);
+        
+        border-radius: 17px;
+    }
+    .searchimg{
+        height:100px;
+        width:100px;
+    }
+    .search{
+        height:45px;
+        width:45px;
     
-    
-
-}
+        
+    }
 
 button{
     border-radius:50%;
@@ -122,6 +144,8 @@ button{
 .hrow{
     display: flex;
     justify-content: space-between;
+    margin-left: 25px;
+
 }
 .mainplimg{
     display: grid;
@@ -140,7 +164,12 @@ button{
     margin: auto;
     text-align: center;
 }
+
+
 p{
+    margin-left: 30px;
+}
+.rate{
     margin-left: 30px;
 }
 .shwmr{
@@ -151,6 +180,10 @@ p{
     text-align: center;
     border-radius:5px;
 
+}
+.shwmr:hover{
+    background-color:white;
+    color:black;
 }
 .graycontainer{
     
@@ -168,6 +201,12 @@ p{
 }
 .list1{
     color:black;
+}
+.list1:hover{
+    color:rgb(153, 151, 151); 
+}
+.list2:hover{
+     color:black;
 }
 th,td{
         padding:10px;
